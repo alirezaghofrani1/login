@@ -1,0 +1,114 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
+body{
+    padding: 0;
+    margin: 0;
+    background: linear-gradient(to right, #a6ffe8, #faafff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+}
+
+.a{
+    background: rgb(255, 227, 247);
+    padding: 20PX;
+    width: 363px;
+    height: 408px;
+    border-radius: 25px;
+    box-shadow: 0px 0px 0px 2px #ff82e8;
+    transition: 0.4s;
+}
+
+
+.a:hover{
+
+    box-shadow: 0px 0px 13px 5px #41aae7;
+    transition: 0.4s;
+}
+
+.a:hover p{
+
+    color: #50a8db;
+    transition: 0.3s;
+    font-size: 42px;
+}
+
+.a:hover ::placeholder{
+
+    color: #50a8db;
+    transition: 0.3s;
+}
+
+
+input{
+    margin: 6% 4%;
+    width: 90%;
+    height: 9%;
+    color: #c092b8;
+    border: 1px solid #c092b8;
+    border-radius: 7px;
+    background: #fff;
+    font-family: 'Salsa', cursive;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input:hover{
+    border: 1px solid #ad2194;
+    border-radius: 13px;
+    color: #ad2194;
+    transition: 0.3s;
+}
+
+input::placeholder {
+
+    font-size: 17px;
+    color: #c092b8;
+    padding: 6px;
+    transition: 0.3s;
+}
+
+
+input:hover::placeholder {
+
+    font-size: 17px;
+    color: #ad2194;
+    transition: 0.3s;
+}
+
+input[type=submit] {
+    background-color: #ff9ded;
+    color: white;
+    margin: 19% 30%;
+    width: 40%;
+    height: 9%;
+    border-radius: 20px;
+}
+
+input[type=submit]:hover {
+
+    background: #9c0080;
+    border-radius: 10px;
+    margin: 16% 25%;
+    width: 50%;
+    height: 13%;
+}
+
+
+p {
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 37px;
+    font-weight: bolder;
+    color: #ff9ded;
+    margin: 11px;
+    transition: 0.3s;
+}
+
